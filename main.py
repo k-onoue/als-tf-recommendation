@@ -133,14 +133,17 @@ class TFRecommender:
 #     target_time = "Late Night"
 #     predicted_rating = recommender.predict_rating(target_user, target_item, target_time)
 #     print(f"Predicted rating for (User, Item, Time) = {(target_user, target_item, target_time)}: {predicted_rating}")
+#     # >>> Predicted rating for (User, Item, Time) = (1, 1, 'Late Night'): 4.155220625158162
 
 #     # Recommend top 5 items for a specific user and time
 #     recommended_items = recommender.recommend_items(target_user, target_time, n=5)
 #     print(f"Top 5 recommended items for User {target_user} at {target_time}: {recommended_items}")
+#     # >>> Top 5 recommended items for User 1 at Late Night: [483, 50, 318, 169, 127]
 
 #     # Search for top 5 users for a specific item and time
 #     best_users = recommender.search_best_users(target_item, target_time, n=5)
 #     print(f"Top 5 users for Item {target_item} at {target_time}: {best_users}")
+#     # >>> Top 5 users for Item 1 at Late Night: [472, 130, 312, 295, 118]
 
 # if __name__ == "__main__":
 #     main()
